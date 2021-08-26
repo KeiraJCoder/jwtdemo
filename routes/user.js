@@ -9,4 +9,8 @@ router.post("/login", (req, res) => {
     res.status(200).json({msg: "login route"})
 })
 
+router.get("/profile", (req, res) => {
+    res.status(200).json({msg: "profile"});
+})
+
 module.exports = router;
